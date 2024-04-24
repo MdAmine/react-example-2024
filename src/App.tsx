@@ -8,6 +8,11 @@ import PropsExample from "./examples/2-data-flow/PropsExample";
 import ExampleWithoutState from "./examples/3-state/ExampleWithoutState";
 import ExampleWithState from "./examples/3-state/ExampleWithState";
 import ExampleWithStateAndLocalStorage from "./examples/3-state/ExampleWithStateAndLocalStorage";
+import UseEffectCounterExample from "./examples/4-useEffect/UseEffectCounterExample";
+import ControlledForm from "./examples/5-form/ControlledForm";
+import UncontrolledFormAndUseRef from "./examples/5-form/UncontrolledFormAndUseRef";
+import ControlledFormWithTwoInputs from "./examples/5-form/ControlledFormWithTwoInputs";
+import RoutingExample from "./examples/6-routing/RoutingExample";
 
 function App() {
   return (
@@ -19,9 +24,17 @@ function App() {
       <PropsChildrenExample />
       <PropsExample /> */}
 
-      <ExampleWithoutState />
+      {/* <ExampleWithoutState />
       <ExampleWithState />
-      <ExampleWithStateAndLocalStorage />
+      <ExampleWithStateAndLocalStorage /> */}
+
+      {/* <UseEffectCounterExample /> */}
+
+      {/* <ControlledForm />
+      <UncontrolledFormAndUseRef />
+      <ControlledFormWithTwoInputs /> */}
+
+      <RoutingExample />
     </div>
   );
 }
