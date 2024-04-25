@@ -39,6 +39,3 @@ const RoutingExample = () => {
 };
 
 export default RoutingExample;
-
-
-// TODO : style + move routes config to a file
