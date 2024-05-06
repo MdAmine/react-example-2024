@@ -15,6 +15,8 @@ import ControlledFormWithTwoInputs from "./examples/5-form/ControlledFormWithTwo
 import RoutingExample from "./examples/6-routing/RoutingExample";
 import FetchApiExample from "./examples/7-fetchApi/FetchApiExample";
 import ContextExample from "./examples/8-contextApi/ContextExample";
+import SayHello from "./examples/9-TU/SayHello";
+import FetchApi from "./examples/9-TU/FetchApi";
 
 function App() {
   return (
@@ -40,7 +42,10 @@ function App() {
 
       {/* <FetchApiExample /> */}
 
-      <ContextExample />
+      {/* <ContextExample /> */}
+
+      <SayHello />
+      <FetchApi />
     </div>
   );
 }
